@@ -1,0 +1,52 @@
+body
+{
+	background-image:url("EUS130---Image.jpg")
+	background-size: cover;
+	font-family: times new roman;
+}
+.login
+{
+	position:absolute;
+	top:20%;
+	left:40%;
+	width:280px;
+	height:380px;
+	background: rgba(0,0,0,0.6);
+}
+h2
+{
+	color:black;
+	text-align:center;
+}
+.login p
+{
+	margin-bottom:5px;
+	font-weight:bold;
+	color:#00fff;
+}
+.textbox
+{
+	width: 100%;
+	font-size: 30px;
+	padding: 8px 0;
+	margin:8px 0;
+	border-bottom : 1px solid #f4433653;
+}
+.textbox i
+{
+	width: 26px;
+	text-align: center; 
+}
+.textbox input 
+{
+	border:none;
+	background:none;
+	outline:none;
+}
+.home
+{
+	font-size:30px;
+	text-align:center;
+	font-family:sans-serif;
+	margin-top:200px;
+}

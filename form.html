@@ -1,0 +1,47 @@
+<html>
+<head>
+
+
+<script type="text/javascript">
+var count=2
+    function dev()
+    {
+        var mypwd=document.form1.password.value;
+        var password="admin";
+         var myuser=document.form1.username.value;
+        var username="admin";
+
+        if(username==myuser)
+        {
+            if(password==mypwd)
+            {
+                window.open("hello.html");
+            }
+        }
+        else
+        {
+            alert("ENTER VALID USERNAME OR PASSWORD");
+        }
+        
+    }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+		
+					
+<div class ="login">
+	<h1>APPLICATION</h1>
+    <form name="form1">
+	<p>USERNAME</p>
+    <input type="text" value=" " name="username" placeholder="enter username">
+    <p> Password</p>
+    <input type="password" value=" " name="password" placeholder="enter password">
+    <input type="submit" name="" value="login" onclick=dev()></div>
+     <a href= "#"forget password> </a>
+
+     </form></br>
+		
+		
+</body>
+</html>
